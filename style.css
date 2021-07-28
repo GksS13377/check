@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.dart {
+  padding: 52px 0 0 118px;
+}
+
+.manager {
+  padding: 5px 0 0 118px;
+  display: inline;
+  font-weight: 700;
+}
+
+.home {
+  margin-left: 317px;
+}
+
+.line {
+  display: inline;
+}
+.line span {
+  margin-left: 49px;
+}
+.line span:hover {
+  color: black;
+}
+.line .home {
+  margin-left: 268px;
+}
+.line .home:hover {
+  color: black;
+}
+
+.buttonFirst {
+  margin-left: 377px;
+  border: 1px solid white;
+  padding: 3px 8px 3px 8px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.buttonFirst:hover {
+  text-decoration: underline;
+}
+
+.phonefirst {
+  font-size: 18px;
+  color: white;
+  height: 750px;
+  background: url("../img/pract.jpg") 0 0/100% 750px no-repeat;
+}
+
+h1 {
+  margin: 167px 0 0 118px;
+  font-size: 55px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Raleway";
+  width: 500px;
+  text-transform: uppercase;
+}
+
+.secondh {
+  margin-left: 118px;
+  width: 500px;
+  height: 85px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.buynow {
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  margin: 50px 0 0 118px;
+  width: 130px;
+  border: 1px solid blue;
+  padding: 15px 20px 15px 23px;
+  border-radius: 5%;
+  background-color: black;
+  -webkit-box-shadow: 0 0 1px 1px;
+          box-shadow: 0 0 1px 1px;
+}
+
+.tryfree {
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  margin: 50px 0 0 30px;
+  width: 175px;
+  border: 1px solid white;
+  padding: 15px 20px 15px 35px;
+  border-radius: 3%;
+  background-color: white;
+  -webkit-box-shadow: 0 0 1px 1px;
+          box-shadow: 0 0 1px 1px;
+  font-weight: 600;
+}
+
+.together {
+  position: relative;
+  left: 400px;
+  bottom: 150px;
+  width: 500px;
+}
